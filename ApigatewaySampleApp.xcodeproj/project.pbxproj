@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A79F2C5D1D8CF34100BFD063 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F2C5C1D8CF34100BFD063 /* main.m */; };
+		A79F2C601D8CF34100BFD063 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F2C5F1D8CF34100BFD063 /* AppDelegate.m */; };
+		A79F2C631D8CF34100BFD063 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F2C621D8CF34100BFD063 /* ViewController.m */; };
+		A79F2C661D8CF34100BFD063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79F2C641D8CF34100BFD063 /* Main.storyboard */; };
+		A79F2C681D8CF34100BFD063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79F2C671D8CF34100BFD063 /* Assets.xcassets */; };
+		A79F2C6B1D8CF34100BFD063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79F2C691D8CF34100BFD063 /* LaunchScreen.storyboard */; };
+		A79F2C761D8CF34100BFD063 /* ApigatewaySampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F2C751D8CF34100BFD063 /* ApigatewaySampleAppTests.m */; };
+		A79F2C811D8CF34100BFD063 /* ApigatewaySampleAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F2C801D8CF34100BFD063 /* ApigatewaySampleAppUITests.m */; };
+		A79F2C9E1D8CF66100BFD063 /* CLIWeather_clouds.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F2C8F1D8CF66100BFD063 /* CLIWeather_clouds.m */; };
+		A79F2C9F1D8CF66100BFD063 /* CLIWeather_coord.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F2C911D8CF66100BFD063 /* CLIWeather_coord.m */; };
+		A79F2CA01D8CF66100BFD063 /* CLIWeather_main.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F2C931D8CF66100BFD063 /* CLIWeather_main.m */; };
+		A79F2CA11D8CF66100BFD063 /* CLIWeather_sys.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F2C951D8CF66100BFD063 /* CLIWeather_sys.m */; };
+		A79F2CA21D8CF66100BFD063 /* CLIWeather_weather_item.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F2C971D8CF66100BFD063 /* CLIWeather_weather_item.m */; };
+		A79F2CA31D8CF66100BFD063 /* CLIWeather_wind.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F2C991D8CF66100BFD063 /* CLIWeather_wind.m */; };
+		A79F2CA41D8CF66100BFD063 /* CLIWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F2C9B1D8CF66100BFD063 /* CLIWeather.m */; };
+		A79F2CA51D8CF66100BFD063 /* CLIWeatherAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A79F2C9D1D8CF66100BFD063 /* CLIWeatherAPIClient.m */; };
+		E118F3F946E100624CE51516 /* Pods_ApigatewaySampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37127245C4258F44FB2DAB1C /* Pods_ApigatewaySampleApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A79F2C721D8CF34100BFD063 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A79F2C501D8CF34100BFD063 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A79F2C571D8CF34100BFD063;
+			remoteInfo = ApigatewaySampleApp;
+		};
+		A79F2C7D1D8CF34100BFD063 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A79F2C501D8CF34100BFD063 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A79F2C571D8CF34100BFD063;
+			remoteInfo = ApigatewaySampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E8AC32EF963EB33EB2389D9 /* Pods-ApigatewaySampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApigatewaySampleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ApigatewaySampleApp/Pods-ApigatewaySampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		37127245C4258F44FB2DAB1C /* Pods_ApigatewaySampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApigatewaySampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79F2C581D8CF34100BFD063 /* ApigatewaySampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApigatewaySampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79F2C5C1D8CF34100BFD063 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A79F2C5E1D8CF34100BFD063 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A79F2C5F1D8CF34100BFD063 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A79F2C611D8CF34100BFD063 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A79F2C621D8CF34100BFD063 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A79F2C651D8CF34100BFD063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A79F2C671D8CF34100BFD063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A79F2C6A1D8CF34100BFD063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A79F2C6C1D8CF34100BFD063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79F2C711D8CF34100BFD063 /* ApigatewaySampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApigatewaySampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79F2C751D8CF34100BFD063 /* ApigatewaySampleAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApigatewaySampleAppTests.m; sourceTree = "<group>"; };
+		A79F2C771D8CF34100BFD063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79F2C7C1D8CF34100BFD063 /* ApigatewaySampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApigatewaySampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79F2C801D8CF34100BFD063 /* ApigatewaySampleAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApigatewaySampleAppUITests.m; sourceTree = "<group>"; };
+		A79F2C821D8CF34100BFD063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79F2C8E1D8CF66100BFD063 /* CLIWeather_clouds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIWeather_clouds.h; sourceTree = "<group>"; };
+		A79F2C8F1D8CF66100BFD063 /* CLIWeather_clouds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIWeather_clouds.m; sourceTree = "<group>"; };
+		A79F2C901D8CF66100BFD063 /* CLIWeather_coord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIWeather_coord.h; sourceTree = "<group>"; };
+		A79F2C911D8CF66100BFD063 /* CLIWeather_coord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIWeather_coord.m; sourceTree = "<group>"; };
+		A79F2C921D8CF66100BFD063 /* CLIWeather_main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIWeather_main.h; sourceTree = "<group>"; };
+		A79F2C931D8CF66100BFD063 /* CLIWeather_main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIWeather_main.m; sourceTree = "<group>"; };
+		A79F2C941D8CF66100BFD063 /* CLIWeather_sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIWeather_sys.h; sourceTree = "<group>"; };
+		A79F2C951D8CF66100BFD063 /* CLIWeather_sys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIWeather_sys.m; sourceTree = "<group>"; };
+		A79F2C961D8CF66100BFD063 /* CLIWeather_weather_item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIWeather_weather_item.h; sourceTree = "<group>"; };
+		A79F2C971D8CF66100BFD063 /* CLIWeather_weather_item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIWeather_weather_item.m; sourceTree = "<group>"; };
+		A79F2C981D8CF66100BFD063 /* CLIWeather_wind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIWeather_wind.h; sourceTree = "<group>"; };
+		A79F2C991D8CF66100BFD063 /* CLIWeather_wind.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIWeather_wind.m; sourceTree = "<group>"; };
+		A79F2C9A1D8CF66100BFD063 /* CLIWeather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIWeather.h; sourceTree = "<group>"; };
+		A79F2C9B1D8CF66100BFD063 /* CLIWeather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIWeather.m; sourceTree = "<group>"; };
+		A79F2C9C1D8CF66100BFD063 /* CLIWeatherAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLIWeatherAPIClient.h; sourceTree = "<group>"; };
+		A79F2C9D1D8CF66100BFD063 /* CLIWeatherAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLIWeatherAPIClient.m; sourceTree = "<group>"; };
+		D363FBF7AB7F6E174589EB05 /* Pods-ApigatewaySampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApigatewaySampleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ApigatewaySampleApp/Pods-ApigatewaySampleApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A79F2C551D8CF34100BFD063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E118F3F946E100624CE51516 /* Pods_ApigatewaySampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79F2C6E1D8CF34100BFD063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79F2C791D8CF34100BFD063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4383342D0EF68B8919FE9EBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37127245C4258F44FB2DAB1C /* Pods_ApigatewaySampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7625BE83C2A2F41A3753F0F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E8AC32EF963EB33EB2389D9 /* Pods-ApigatewaySampleApp.debug.xcconfig */,
+				D363FBF7AB7F6E174589EB05 /* Pods-ApigatewaySampleApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A79F2C4F1D8CF34100BFD063 = {
+			isa = PBXGroup;
+			children = (
+				A79F2C5A1D8CF34100BFD063 /* ApigatewaySampleApp */,
+				A79F2C741D8CF34100BFD063 /* ApigatewaySampleAppTests */,
+				A79F2C7F1D8CF34100BFD063 /* ApigatewaySampleAppUITests */,
+				A79F2C591D8CF34100BFD063 /* Products */,
+				7625BE83C2A2F41A3753F0F5 /* Pods */,
+				4383342D0EF68B8919FE9EBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A79F2C591D8CF34100BFD063 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A79F2C581D8CF34100BFD063 /* ApigatewaySampleApp.app */,
+				A79F2C711D8CF34100BFD063 /* ApigatewaySampleAppTests.xctest */,
+				A79F2C7C1D8CF34100BFD063 /* ApigatewaySampleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A79F2C5A1D8CF34100BFD063 /* ApigatewaySampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				A79F2C8E1D8CF66100BFD063 /* CLIWeather_clouds.h */,
+				A79F2C8F1D8CF66100BFD063 /* CLIWeather_clouds.m */,
+				A79F2C901D8CF66100BFD063 /* CLIWeather_coord.h */,
+				A79F2C911D8CF66100BFD063 /* CLIWeather_coord.m */,
+				A79F2C921D8CF66100BFD063 /* CLIWeather_main.h */,
+				A79F2C931D8CF66100BFD063 /* CLIWeather_main.m */,
+				A79F2C941D8CF66100BFD063 /* CLIWeather_sys.h */,
+				A79F2C951D8CF66100BFD063 /* CLIWeather_sys.m */,
+				A79F2C961D8CF66100BFD063 /* CLIWeather_weather_item.h */,
+				A79F2C971D8CF66100BFD063 /* CLIWeather_weather_item.m */,
+				A79F2C981D8CF66100BFD063 /* CLIWeather_wind.h */,
+				A79F2C991D8CF66100BFD063 /* CLIWeather_wind.m */,
+				A79F2C9A1D8CF66100BFD063 /* CLIWeather.h */,
+				A79F2C9B1D8CF66100BFD063 /* CLIWeather.m */,
+				A79F2C9C1D8CF66100BFD063 /* CLIWeatherAPIClient.h */,
+				A79F2C9D1D8CF66100BFD063 /* CLIWeatherAPIClient.m */,
+				A79F2C5E1D8CF34100BFD063 /* AppDelegate.h */,
+				A79F2C5F1D8CF34100BFD063 /* AppDelegate.m */,
+				A79F2C611D8CF34100BFD063 /* ViewController.h */,
+				A79F2C621D8CF34100BFD063 /* ViewController.m */,
+				A79F2C641D8CF34100BFD063 /* Main.storyboard */,
+				A79F2C671D8CF34100BFD063 /* Assets.xcassets */,
+				A79F2C691D8CF34100BFD063 /* LaunchScreen.storyboard */,
+				A79F2C6C1D8CF34100BFD063 /* Info.plist */,
+				A79F2C5B1D8CF34100BFD063 /* Supporting Files */,
+			);
+			path = ApigatewaySampleApp;
+			sourceTree = "<group>";
+		};
+		A79F2C5B1D8CF34100BFD063 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A79F2C5C1D8CF34100BFD063 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A79F2C741D8CF34100BFD063 /* ApigatewaySampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A79F2C751D8CF34100BFD063 /* ApigatewaySampleAppTests.m */,
+				A79F2C771D8CF34100BFD063 /* Info.plist */,
+			);
+			path = ApigatewaySampleAppTests;
+			sourceTree = "<group>";
+		};
+		A79F2C7F1D8CF34100BFD063 /* ApigatewaySampleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A79F2C801D8CF34100BFD063 /* ApigatewaySampleAppUITests.m */,
+				A79F2C821D8CF34100BFD063 /* Info.plist */,
+			);
+			path = ApigatewaySampleAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A79F2C571D8CF34100BFD063 /* ApigatewaySampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79F2C851D8CF34100BFD063 /* Build configuration list for PBXNativeTarget "ApigatewaySampleApp" */;
+			buildPhases = (
+				CB51977867BB474428F6E042 /* [CP] Check Pods Manifest.lock */,
+				A79F2C541D8CF34100BFD063 /* Sources */,
+				A79F2C551D8CF34100BFD063 /* Frameworks */,
+				A79F2C561D8CF34100BFD063 /* Resources */,
+				51CC4087D0B34C465042CD49 /* [CP] Embed Pods Frameworks */,
+				B2F744308D8C9F158C755A46 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApigatewaySampleApp;
+			productName = ApigatewaySampleApp;
+			productReference = A79F2C581D8CF34100BFD063 /* ApigatewaySampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A79F2C701D8CF34100BFD063 /* ApigatewaySampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79F2C881D8CF34100BFD063 /* Build configuration list for PBXNativeTarget "ApigatewaySampleAppTests" */;
+			buildPhases = (
+				A79F2C6D1D8CF34100BFD063 /* Sources */,
+				A79F2C6E1D8CF34100BFD063 /* Frameworks */,
+				A79F2C6F1D8CF34100BFD063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A79F2C731D8CF34100BFD063 /* PBXTargetDependency */,
+			);
+			name = ApigatewaySampleAppTests;
+			productName = ApigatewaySampleAppTests;
+			productReference = A79F2C711D8CF34100BFD063 /* ApigatewaySampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A79F2C7B1D8CF34100BFD063 /* ApigatewaySampleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79F2C8B1D8CF34100BFD063 /* Build configuration list for PBXNativeTarget "ApigatewaySampleAppUITests" */;
+			buildPhases = (
+				A79F2C781D8CF34100BFD063 /* Sources */,
+				A79F2C791D8CF34100BFD063 /* Frameworks */,
+				A79F2C7A1D8CF34100BFD063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A79F2C7E1D8CF34100BFD063 /* PBXTargetDependency */,
+			);
+			name = ApigatewaySampleAppUITests;
+			productName = ApigatewaySampleAppUITests;
+			productReference = A79F2C7C1D8CF34100BFD063 /* ApigatewaySampleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A79F2C501D8CF34100BFD063 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Furuno, Toshihiro";
+				TargetAttributes = {
+					A79F2C571D8CF34100BFD063 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					A79F2C701D8CF34100BFD063 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A79F2C571D8CF34100BFD063;
+					};
+					A79F2C7B1D8CF34100BFD063 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A79F2C571D8CF34100BFD063;
+					};
+				};
+			};
+			buildConfigurationList = A79F2C531D8CF34100BFD063 /* Build configuration list for PBXProject "ApigatewaySampleApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A79F2C4F1D8CF34100BFD063;
+			productRefGroup = A79F2C591D8CF34100BFD063 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A79F2C571D8CF34100BFD063 /* ApigatewaySampleApp */,
+				A79F2C701D8CF34100BFD063 /* ApigatewaySampleAppTests */,
+				A79F2C7B1D8CF34100BFD063 /* ApigatewaySampleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A79F2C561D8CF34100BFD063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79F2C6B1D8CF34100BFD063 /* LaunchScreen.storyboard in Resources */,
+				A79F2C681D8CF34100BFD063 /* Assets.xcassets in Resources */,
+				A79F2C661D8CF34100BFD063 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79F2C6F1D8CF34100BFD063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79F2C7A1D8CF34100BFD063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51CC4087D0B34C465042CD49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApigatewaySampleApp/Pods-ApigatewaySampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2F744308D8C9F158C755A46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ApigatewaySampleApp/Pods-ApigatewaySampleApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB51977867BB474428F6E042 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A79F2C541D8CF34100BFD063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79F2C631D8CF34100BFD063 /* ViewController.m in Sources */,
+				A79F2CA51D8CF66100BFD063 /* CLIWeatherAPIClient.m in Sources */,
+				A79F2CA21D8CF66100BFD063 /* CLIWeather_weather_item.m in Sources */,
+				A79F2C601D8CF34100BFD063 /* AppDelegate.m in Sources */,
+				A79F2C9F1D8CF66100BFD063 /* CLIWeather_coord.m in Sources */,
+				A79F2C5D1D8CF34100BFD063 /* main.m in Sources */,
+				A79F2CA01D8CF66100BFD063 /* CLIWeather_main.m in Sources */,
+				A79F2CA11D8CF66100BFD063 /* CLIWeather_sys.m in Sources */,
+				A79F2CA31D8CF66100BFD063 /* CLIWeather_wind.m in Sources */,
+				A79F2C9E1D8CF66100BFD063 /* CLIWeather_clouds.m in Sources */,
+				A79F2CA41D8CF66100BFD063 /* CLIWeather.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79F2C6D1D8CF34100BFD063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79F2C761D8CF34100BFD063 /* ApigatewaySampleAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79F2C781D8CF34100BFD063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79F2C811D8CF34100BFD063 /* ApigatewaySampleAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A79F2C731D8CF34100BFD063 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A79F2C571D8CF34100BFD063 /* ApigatewaySampleApp */;
+			targetProxy = A79F2C721D8CF34100BFD063 /* PBXContainerItemProxy */;
+		};
+		A79F2C7E1D8CF34100BFD063 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A79F2C571D8CF34100BFD063 /* ApigatewaySampleApp */;
+			targetProxy = A79F2C7D1D8CF34100BFD063 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A79F2C641D8CF34100BFD063 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A79F2C651D8CF34100BFD063 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A79F2C691D8CF34100BFD063 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A79F2C6A1D8CF34100BFD063 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A79F2C831D8CF34100BFD063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A79F2C841D8CF34100BFD063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A79F2C861D8CF34100BFD063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E8AC32EF963EB33EB2389D9 /* Pods-ApigatewaySampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ApigatewaySampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloworld.ApigatewaySampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A79F2C871D8CF34100BFD063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D363FBF7AB7F6E174589EB05 /* Pods-ApigatewaySampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ApigatewaySampleApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloworld.ApigatewaySampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A79F2C891D8CF34100BFD063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ApigatewaySampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloworld.ApigatewaySampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApigatewaySampleApp.app/ApigatewaySampleApp";
+			};
+			name = Debug;
+		};
+		A79F2C8A1D8CF34100BFD063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ApigatewaySampleAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloworld.ApigatewaySampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApigatewaySampleApp.app/ApigatewaySampleApp";
+			};
+			name = Release;
+		};
+		A79F2C8C1D8CF34100BFD063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ApigatewaySampleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloworld.ApigatewaySampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ApigatewaySampleApp;
+			};
+			name = Debug;
+		};
+		A79F2C8D1D8CF34100BFD063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ApigatewaySampleAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.helloworld.ApigatewaySampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ApigatewaySampleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A79F2C531D8CF34100BFD063 /* Build configuration list for PBXProject "ApigatewaySampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79F2C831D8CF34100BFD063 /* Debug */,
+				A79F2C841D8CF34100BFD063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79F2C851D8CF34100BFD063 /* Build configuration list for PBXNativeTarget "ApigatewaySampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79F2C861D8CF34100BFD063 /* Debug */,
+				A79F2C871D8CF34100BFD063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79F2C881D8CF34100BFD063 /* Build configuration list for PBXNativeTarget "ApigatewaySampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79F2C891D8CF34100BFD063 /* Debug */,
+				A79F2C8A1D8CF34100BFD063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79F2C8B1D8CF34100BFD063 /* Build configuration list for PBXNativeTarget "ApigatewaySampleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79F2C8C1D8CF34100BFD063 /* Debug */,
+				A79F2C8D1D8CF34100BFD063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A79F2C501D8CF34100BFD063 /* Project object */;
+}

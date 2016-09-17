@@ -1,0 +1,15 @@
+PODS:
+  - AWSAPIGateway (2.4.8):
+    - AWSCore (= 2.4.8)
+  - AWSCore (2.4.8)
+
+DEPENDENCIES:
+  - AWSAPIGateway (~> 2.4.7)
+
+SPEC CHECKSUMS:
+  AWSAPIGateway: 678fc042cdd2090c59fbaf370df908cb6f76ec62
+  AWSCore: 7bc7e845f532dedc65b133cdf518bb44a2e28dfe
+
+PODFILE CHECKSUM: 49bc0cd06a8e0f5a78a3d26f5b80fc9a24a9ed53
+
+COCOAPODS: 1.0.1
